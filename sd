@@ -1,0 +1,9 @@
+pip3 install --user --upgrade git+https://github.com/twintproject/twint.git@origin/master#egg=twint
+import twint
+
+# Configure
+c = twint.Config()
+c.Username = "elfarqy"
+
+# Run
+twint.run.Search(c)
